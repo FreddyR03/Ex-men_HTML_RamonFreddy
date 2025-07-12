@@ -4,4 +4,10 @@ En esta parte del ejercicio, vamos a hacer un estudio de usuario, por el cual se
 ## postulantes
 
 ### Andres
-![imagen](/assents/)
+![imagen](/assents/X3.png)
+
+### Camila
+![imagen](/assents/X2.png)
+
+### Carolina
+![imagen](/assents/X1.png)
