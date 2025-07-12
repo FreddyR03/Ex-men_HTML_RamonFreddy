@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3d93d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    max-width: 120vh;
+}
+
+.contenedor{
+    background-color: white;
+    width: 90%;
+    border-radius: 30px;
+    padding: 10px 40px;
+    margin-top: 40px;
+}
+
+.contenedor h2{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.contenedor .imagen-dian {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.contenedor .texto{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 0.9rem;
+}
+
+.contenedor .usuario-andres {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.usuario-andres .imagen-andres .nombre{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.usuario-andres .imagen-andres img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.usuario-andres .imagen-andres .text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.6rem;
+    color:  rgb(70, 222, 233);
+}
+
+.usuario-andres .descripcion-andres{
+    font-size: 0.7rem;
+    margin-top: 40px;
+}
+
+.contenedor .descripcion1{
+    font-size: 0.7rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contenedor .usuario-camila {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.usuario-camila .descripcion-camila{
+    font-size: 0.7rem;
+    margin-top: 50px;
+}
+
+.usuario-camila .imagen-camila .nombre{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.usuario-camila .imagen-camila img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.usuario-camila .imagen-camila .text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.6rem;
+    color:  rgb(70, 222, 233);
+}
+
+.contenedor .descripcion2{
+    font-size: 0.7rem;
+    margin-top: 30px;
+}
+
+.contenedor .usuario-carolina {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+}
+
+.usuario-carolina .imagen-carolina .nombre{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.usuario-carolina .imagen-carolina img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.usuario-carolina .imagen-carolina .text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.6rem;
+    color:  rgb(70, 222, 233);
+}
+
+.usuario-carolina .descripcion-carolina{
+    font-size: 0.7rem;
+    margin-top: 50px;
+}
+
+.contenedor .descripcion3{
+    font-size: 0.7rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contenedor .lista{
+    font-size: 0.7rem;
+    margin: 90px auto;   
+    width: fit-content; 
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.lista .dian{
+    width: 40px;
+    margin-left: 2px;
+}
+
+.dian{
+    width: 40px;
+}
+
+.texto-dian{
+   text-align: center;
+   font-size: 0.7rem; 
+}
+
+li {
+    list-style-type: '✔';
+  }
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+}
+
+.l1{
+    text-align: center;
+}
+
+.l2{
+    text-align: center;
+}
+
+.l3{
+    text-align: center;
+}
+.l5{
+    text-align: center;
+}
+.horizontal2{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: -10px;
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+}
+/* Response para maximizar la pantalla */
+@media screen and (min-width: 1200px) {
+    body{
+        display: flex;
+        max-width: 200%;
+        max-height: 200%;
+        justify-content: center;
+    }
+
+    .contenedor{
+        width: 600px;
+    }
+
+    .usuario-andres .descripcion-andres{
+        font-size: 0.8rem;
+    }
+
+    .contenedor .descripcion1{
+        font-size: 0.8rem;
+    }
+
+    .usuario-maria .descripcion-maria{
+        font-size: 0.8rem;
+    }
+    
+    .contenedor .descripcion2{
+        font-size: 0.8rem;
+    }
+
+    .usuario-carolina .descripcion-carolina{
+        font-size: 0.8rem;
+    }
+
+    .contenedor .descripcion3{
+        font-size: 0.8rem;
+    }
+
+    .contenedor .lista{
+        font-size: 0.8rem; 
+    }
+}
+
+/* Response para celulares */
+@media screen and (max-width: 576px) {
+    .contenedor .texto{
+        text-align: center;
+        margin-bottom: 35px;
+        font-size: 0.8rem;
+    }
+
+    .contenedor .usuario-andres {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 30px;
+    }
+    .usuario-andres .descripcion-andres{
+        font-size: 0.5rem;
+        margin-top: 40px;
+    }
+
+    .usuario-andres .imagen-andres img{
+        width: 120px
+    }
+
+    .contenedor .descripcion1{
+        margin-bottom: 20px;
+        font-size: 0.5rem;
+    }
+
+    .container .usuario-camila {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 30px;
+    }
+    .usuario-camila .imagen-camila img{
+        width: 120px
+    }
+
+    .usuario-camila .descripcion-camila{
+        font-size: 0.5rem;
+        margin-top: 40px;
+    }
+
+    .contenedor .descripcion2{
+        margin-bottom: 20px;
+        font-size: 0.5rem;
+    }
+
+    .container .usuario-carolina {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 30px;
+    }
+
+    .usuario-carolina .descripcion-carolina{
+        font-size: 0.5rem;
+        margin-top: 40px;
+    }
+
+    .usuario-carolina .imagen-carolina img{
+        width: 120px
+    }
+
+    .contenedor .descripcion3{
+        margin-bottom: 20px;
+        font-size: 0.5rem;
+    }
+
+    .horizontal{
+        font-size: 0.5rem;
+        gap: 20px;
+    }
+    
+    .horizontal2{
+        font-size: 0.5rem;
+    }
+}
