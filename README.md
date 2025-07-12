@@ -4,4 +4,4 @@ En esta parte del ejercicio, vamos a hacer un estudio de usuario, por el cual se
 ## postulantes
 
 ### Andres
-![imagen]()
+![imagen](/assents/)
